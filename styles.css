@@ -29,8 +29,7 @@
     color: #0a3871;
 }
 
-.texto:focus,
-.texto:active{
+.texto:focus, .texto:active{
     border: none;
     outline: none;
 }
@@ -105,8 +104,7 @@
     color: #0a3871;
 }
 
-.btn-desencriptar:hover,
-.btn-encriptar:hover {
+.btn-desencriptar:hover, .btn-encriptar:hover {
     margin: 0.3%;
     width: 24.5%;
     padding: 1.8%;
