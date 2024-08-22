@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.img-favicon{
+    background-image: url("img/favicon.png");
+}
+
+
+
 .container{
     position: relative;
     width: 100vw;
