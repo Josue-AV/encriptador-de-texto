@@ -194,10 +194,10 @@ div {
 }
 
 .copyright{
-    color: #023d14;
+    color: #1e023d;
     background: transparent;
-    font-size: 15px;
-    margin: 10px;
+    font-size: 20px;
+    margin: 8px;
 }
 
 
@@ -263,82 +263,135 @@ div {
     display: none;
     visibility: hidden;
 } 
+}
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-    .logo{
-     width: 15%;
-     margin-top: 40px;
-    } 
-    main{
-     display: block;
-     margin: 0px 30px;
+    
+    .container{
+        display: flex;
+        flex-direction: row;
     }
-    .entrada-texto{
-     margin-top: 60px;
-     width: 100%;
-     height: 700px;
+    
+    .encriptar{
+        width: 100%;
     }
+    
+    .texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    
+    .terminos{
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+    
+    .terminos p{
+        font-size: 16px;
+    }
+    
     .botones{
-     margin-top: 0px;
+        width: 80%;
+        left: 10%;
+        top: 70%;
     }
-    .salida-texto{
-     margin: 40px 0px;
-     width: 655px;
-     height: 300px;
-     background: white;
+    
+    .btn-encriptar, .btn-desencriptar, .btn-copiar{
+        width: 48%;
+        border-radius: 16px;
     }
-    .dinamico{
-     margin-top: -250px;
-     margin-left: 0px;
-     width: 655px;
+    
+    .btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover{
+        margin: 0.3%;
+        width: 47.5;
+        padding: 1.8%;
     }
-    .texto1{
-     margin-bottom: .5em;
+    
+    .encriptado{
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
     }
-    .copiar{
-     margin-top: 100px;
+    
+    .mensaje-encriptado{
+        width: 100%;
+        top: 5%;
     }
-    .anuncio{
-     margin-left: 70px;
+    
+    .encriptado img{
+        margin-top: 0;
+        display: none;
+        visibility: hidden;
     }
- }
+}
+
  /* Celular */
  @media screen and (max-width: 375px) {
-     .encriptado{
-         margin-top: 30px;
-         width: 30%;
-     }
-     .texto{
-         margin-top: 20px;
-         height: 170;
-     }
-     .botones{
-         display: block;
-         margin-top: 0px;
-     }
-     .btn-encriptar, .btn-desencriptar, .btn-copiar{
-        width: 100%;
-     }
-     .btn-desencriptar{
-         margin-left: 0px;
-         margin-top: 15px;
-     }
-     .encriptar, .terminos, .myFunction{
-         width: 295px;
-     }
-     .mensaje-encriptado{
-         margin-left: 10px;
-     }
-     .encriptar{
-         padding: 10px;
-         padding-bottom: 120px;
-         height: 180px;
-     }
-     .copyText{
-         width: 285px;
-         margin-left: -100px;
-     }
-    }
 
+      .container{
+    display: flex;
+    flex-direction: row;
 }
+
+.encriptar{
+    width: 100%;
+}
+
+.texto{
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 5%;
+}
+
+.terminos{
+    width: 80%;
+    left: 10%;
+    top: 67%;
+}
+
+.terminos p{
+    font-size: 16px;
+}
+
+.botones{
+    width: 80%;
+    left: 10%;
+    top: 70%;
+}
+
+.btn-encriptar, .btn-desencriptar, .btn-copiar{
+    width: 48%;
+    border-radius: 16px;
+}
+
+.btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover{
+    margin: 0.3%;
+    width: 47.5;
+    padding: 1.8%;
+}
+
+.encriptado{
+    width: 80%;
+    height: 15%;
+    left: 10%;
+    top: 80%;
+}
+
+.mensaje-encriptado{
+    width: 100%;
+    top: 5%;
+}
+
+.encriptado img{
+    margin-top: 0;
+    display: none;
+    visibility: hidden;
+} 
+}
+
