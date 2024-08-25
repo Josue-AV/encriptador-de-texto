@@ -9,30 +9,67 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
+
+    
     <div class="container"></div>
         <div class="encriptar">
             <textarea name="texto" class="texto" id="texto" cols="30" rows="10" 
             placeholder="Ingrese el texto aquí"></textarea>
         <div class="terminos">
-            <p>Solo letras minúsculas y sin acentos</p>
+            <p>*Solo letras minúsculas y sin acentos</p>
         </div>
         <div class="botones">
             <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
-            <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()">
+            <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+
         </div>
     </div>
     <div class="encriptado">
         <img src="img/muñeco.png" alt="" id="muñeco"> 
         <link rel="stylesheet" href="">
-
-
         <div class="mensaje-encriptado" id="mensaje-encriptado">
             <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
             <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
             <!-- <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
+
+           
+           
+
+<!-- The text field -->
+<input type="text" value=texto id="myInput">
+
+<!-- The button used to copy the text -->
+<button class="btn-copiar" onclick="myFunction()">Copiar texto</button>
+
+<script>
+    function myFunction() {
+
+      // Get the text field
+      var copyText = document.getElementById("myInput");
+    
+      
+      // Select the text field
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); // For mobile devices
+    
+      // Copy the text inside the text field
+      navigator.clipboard.writeText(copyText.value);
+      
+      // Alert the copied text
+      swal("Bien!","Se copió el texto: "+ copyText.value);
+
+    }
+    </script> 
+
         </div>
+
     </div>
 </div>    
+
+<footer>
+    <p class="copyright">&copy Desarrollado por Josue Álvarez Vargas</p>
+</footer>
+
 </body>
 <script src="index.js"></script>:
 </html>
