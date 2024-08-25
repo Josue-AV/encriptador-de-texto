@@ -390,7 +390,7 @@ div {
 
 .encriptado img{
     margin-top: 0;
-    display: none;
+    display: inside;
     visibility: hidden;
 } 
 }
