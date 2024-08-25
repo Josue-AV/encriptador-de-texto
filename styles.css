@@ -202,7 +202,7 @@ div {
 
 
 /* Responsive design */
-@media (max-width: 57.5em){
+/* @media (max-width: 57.5em){
     .container{
     display: flex;
     flex-direction: row;
@@ -262,6 +262,56 @@ div {
     margin-top: 0;
     display: none;
     visibility: hidden;
-}
+} */
+
+
+@media (max-width: 1200px){
+    .container{
+        padding: 10%;
+    }
+    .encriptar{
+        width: auto;
+    }
+    
+    .texto{
+        width: auto;
+        
+    }
+    
+    .terminos{
+        width: auto;
+        
+    }
+    
+    .terminos p{
+        font-size: 16px;
+    }
+    
+    .botones{
+        width: auto;
+    }
+    
+    .btn-encriptar, .btn-desencriptar, .btn-copiar{
+        width: auto;
+        border-radius: 16px;
+    }
+    
+    .btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover{
+        width: auto;
+    }
+    
+    .encriptado{
+        width: auto;
+        
+    }
+    
+    .mensaje-encriptado{
+        width: auto;
+    }
+    
+    .encriptado img{
+        margin-top: auto; 
+    } 
+
 
 }
