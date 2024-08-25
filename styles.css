@@ -305,32 +305,32 @@ div {
  }
  /* Celular */
  @media screen and (max-width: 375px) {
-     .logo{
+     .encriptado{
          margin-top: 30px;
          width: 30%;
      }
      .texto{
          margin-top: 20px;
-         height: 340px;
+         height: 170;
      }
      .botones{
          display: block;
          margin-top: 0px;
      }
-     .btn-encriptar, .btn-desencriptar{
-         width: 100%;
+     .btn-encriptar, .btn-desencriptar, .btn-copiar{
+        width: 100%;
      }
      .btn-desencriptar{
          margin-left: 0px;
          margin-top: 15px;
      }
-     .salida-texto, .dinamico, .myFunction{
+     .encriptar, .terminos, .myFunction{
          width: 295px;
      }
      .mensaje-encriptado{
          margin-left: 10px;
      }
-     .salida-texto{
+     .encriptar{
          padding: 10px;
          padding-bottom: 120px;
          height: 180px;
