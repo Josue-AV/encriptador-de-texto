@@ -202,7 +202,7 @@ div {
 
 
 /* Responsive design */
-/* @media (max-width: 57.5em){
+ @media (max-width: 57.5em){
     .container{
     display: flex;
     flex-direction: row;
@@ -262,56 +262,83 @@ div {
     margin-top: 0;
     display: none;
     visibility: hidden;
-} */
+} 
 
-
-@media (max-width: 1200px){
-    .container{
-        padding: 10%;
-    }
-    .encriptar{
-        width: auto;
-    }
-    
-    .texto{
-        width: auto;
-        
-    }
-    
-    .terminos{
-        width: auto;
-        
-    }
-    
-    .terminos p{
-        font-size: 16px;
-    }
-    
-    .botones{
-        width: auto;
-    }
-    
-    .btn-encriptar, .btn-desencriptar, .btn-copiar{
-        width: auto;
-        border-radius: 16px;
-    }
-    
-    .btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover{
-        width: auto;
-    }
-    
-    .encriptado{
-        width: auto;
-        
-    }
-    
-    .mensaje-encriptado{
-        width: auto;
-    }
-    
-    .encriptado img{
-        margin-top: auto; 
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .logo{
+     width: 15%;
+     margin-top: 40px;
     } 
-
+    main{
+     display: block;
+     margin: 0px 30px;
+    }
+    .entrada-texto{
+     margin-top: 60px;
+     width: 100%;
+     height: 700px;
+    }
+    .botones{
+     margin-top: 0px;
+    }
+    .salida-texto{
+     margin: 40px 0px;
+     width: 655px;
+     height: 300px;
+     background: white;
+    }
+    .dinamico{
+     margin-top: -250px;
+     margin-left: 0px;
+     width: 655px;
+    }
+    .texto1{
+     margin-bottom: .5em;
+    }
+    .copiar{
+     margin-top: 100px;
+    }
+    .anuncio{
+     margin-left: 70px;
+    }
+ }
+ /* Celular */
+ @media screen and (max-width: 375px) {
+     .logo{
+         margin-top: 30px;
+         width: 30%;
+     }
+     .texto{
+         margin-top: 20px;
+         height: 340px;
+     }
+     .botones{
+         display: block;
+         margin-top: 0px;
+     }
+     .btn-encriptar, .btn-desencriptar{
+         width: 100%;
+     }
+     .btn-desencriptar{
+         margin-left: 0px;
+         margin-top: 15px;
+     }
+     .salida-texto, .dinamico, .myFunction{
+         width: 295px;
+     }
+     .mensaje-encriptado{
+         margin-left: 10px;
+     }
+     .salida-texto{
+         padding: 10px;
+         padding-bottom: 120px;
+         height: 180px;
+     }
+     .copyText{
+         width: 285px;
+         margin-left: -100px;
+     }
+    }
 
 }
