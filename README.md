@@ -43,6 +43,7 @@ Extras:
 
 Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
+
 *[Estado del proyecto](#Estado-del-proyecto)
 
 Pasos que faltan :
@@ -52,30 +53,42 @@ Pasos que faltan :
 2. El texto se inserta en la parte izquierda y no se muestra en la parte derecha de la página.
 
 3. Responsive design para tablets y teléfonos inteligentes.
+   
 
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 
+Los pasos para usar el programa son:
 
+1. Ingresar el texto donde se indica en pantalla.
 
 *[Acceso al proyecto](#acceso-proyecto)
 
 En esta dirección puede accesar al repositorio y página del proyecto:
+
 https://github.com/Josue-AV/encriptador-de-texto
+
 
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
 
     HTML5
     JavaScript
     CSS
+
      
 *[Personas Contribuyentes](#personas-contribuyentes)
 
-No se tienen.
+No se tienen por el momento.
+
 
 *[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
 Josue Álvarez Vargas.
 
+
 *[Conclusión](#conclusión)
 
+El Desafío Encriptador de Texto es clave para el éxito como desarrollador. 
+A través de la práctica y el perfeccionamiento de la lógica, se puede fortalecer los conocimientos, dominar el pensamiento lógico, mejorar el análisis y la resolución de problemas.
+También se expande la visión del mundo del desarrollo.
 
+Este proyecto tiene mucho por mejorar, pero ha sido un avance para aprender.
