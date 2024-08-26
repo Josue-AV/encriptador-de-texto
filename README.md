@@ -45,6 +45,13 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 *[Estado del proyecto](#Estado-del-proyecto)
 
+Pasos que faltan :
+
+1. Mensaje de validación que informe al usuario de que no se aceptarán mayúsculas ni caracteres especiales.
+
+2. El texto se inserta en la parte izquierda y no se muestra en la parte derecha de la página.
+
+
 
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 
