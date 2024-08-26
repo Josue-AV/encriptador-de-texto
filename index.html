@@ -17,6 +17,7 @@
             placeholder="Ingrese el texto aquí"></textarea>
         <div class="terminos">
             <p>*Solo letras minúsculas y sin acentos</p>
+
         </div>
         <div class="botones">
             <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
@@ -32,23 +33,23 @@
             <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
 
 <!-- The button used to copy the text -->
-<button class="btn-copiar" onclick="myFunction()">Copiar texto</button>
+<button class="btn-copiar" onclick="copiar()">Copiar texto</button>
            
 <script>
-    function myFunction() {
+    function copiar() {
 
       // Get the text field
-      var copyText = document.getElementById("texto");
+      var copiarTexto = document.getElementById("texto");
     
       // Select the text field
-      copyText.select();
-      copyText.setSelectionRange(0, 99999); // For mobile devices
+      copiarTexto.select();
+      copiarTexto.setSelectionRange(0, 99999); // For mobile devices
     
       // Copy the text inside the text field
-      navigator.clipboard.writeText(copyText.value);
+      navigator.clipboard.writeText(copiarTexto.value);
       
       // Alert the copied text
-      swal("Bien!","Se copió el texto: "+ copyText.value);
+      swal("Bien!","Se copió el texto: "+ copiarTexto.value);
 
     }
     </script> 

@@ -15,7 +15,7 @@ div {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: #010e08;
+    background: #0c441a;
 }
 
 .texto{
@@ -34,7 +34,7 @@ div {
 }
 
 .texto::placeholder{
-    color: #0b5311;
+    color: #ee052c;
 }
 
 .texto:focus, .texto:active{
@@ -55,8 +55,10 @@ div {
 }
 
 .terminos p {
-    font-family: "Inter";
-    font-style: italic;
+    font-optical-sizing: none;
+    font-weight: 900;
+    font-family: cursive;
+    font-style: normal;
     font-size: 100%;
     line-height: 150%;
     color: #c5e414;
@@ -200,7 +202,6 @@ div {
     margin: 2px;
 
 }
-
 
 /* Responsive design */
  @media (max-width: 57.5em){

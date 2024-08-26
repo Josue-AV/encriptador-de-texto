@@ -1,11 +1,8 @@
-
-
 function encriptar(){
     let texto = document.getElementById("texto").value;
     let tituloMensaje = document.getElementById("titulo-mensaje");
     let parrafo = document.getElementById("parrafo");
     let muñeco = document.getElementById("muñeco"); 
-
 
     let textoCifrado = texto
         .replace(/e/gi, "enter")
@@ -53,9 +50,7 @@ function encriptar(){
             parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
             swal("Oops!","Debes ingresar un texto","warning");
         }
-
-       
-           
+    
         }
     
  
