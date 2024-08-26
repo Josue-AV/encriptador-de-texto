@@ -280,7 +280,7 @@ div {
     
     .texto{
         width: 80%;
-        height: 60%;
+        height: 30%;
         left: 10%;
         top: 5%;
     }
@@ -316,7 +316,7 @@ div {
         width: 80%;
         height: 15%;
         left: 10%;
-        top: 80%;
+        top: 40%;
     }
     
     .mensaje-encriptado{
