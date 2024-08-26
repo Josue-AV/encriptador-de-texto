@@ -61,6 +61,18 @@ Los pasos para usar el programa son:
 
 1. Ingresar el texto donde se indica en pantalla.
 
+2. Click en botón Encriptar y le aparece ahí mismo la palabra encriptada. A la derecha aparece imagen de que se encriptó.
+   Puede seguir encriptando más la palabra.
+
+3. Click en botón Desencriptar y le aparece ahí mismo la palabra desencriptada. A la derecha aparece imagen de que se desencriptó.  
+
+4. Con el botón Copiar texto puede copiar lo que esté en la pantalla de texto.
+   Le sale alerta con el texto copiado
+
+5. Para cambiar de palabra debe borrarla.
+
+6. Con pantalla de texto vacía, da alerta por faltar ingresar texto, si da click en botón Encriptar o Desencriptar.
+
 *[Acceso al proyecto](#acceso-proyecto)
 
 En esta dirección puede accesar al repositorio y página del proyecto:
