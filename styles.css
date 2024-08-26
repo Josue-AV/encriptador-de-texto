@@ -269,7 +269,7 @@ div {
 /* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
 @media only screen and (max-width : 900px) {
     
-    .container{
+    /* .container{
         display: flex;
         flex-direction: row;
     }
@@ -280,7 +280,7 @@ div {
     
     .texto{
         width: 80%;
-        height: 30%;
+        height: 60%;
         left: 10%;
         top: 5%;
     }
@@ -316,7 +316,7 @@ div {
         width: 80%;
         height: 15%;
         left: 10%;
-        top: 40%;
+        top: 80%;
     }
     
     .mensaje-encriptado{
@@ -328,7 +328,7 @@ div {
         margin-top: 0;
         display: none;
         visibility: hidden;
-    }
+    } */
 }
 
  
