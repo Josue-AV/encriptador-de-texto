@@ -52,6 +52,16 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
 
+
+    HTML5
+    CSS3
+    JavaScript ES6
+    Git
+    Github
+    Github Pages
+    Trello
+
+
 *[Personas Contribuyentes](#personas-contribuyentes)
 
 *[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
