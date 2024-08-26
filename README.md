@@ -47,33 +47,34 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 Pasos que faltan :
 
-1. Mensaje de validación que informe al usuario de que no se aceptarán mayúsculas ni caracteres especiales.
+1. Mensaje de validación que informe al usuario que no se aceptarán mayúsculas ni caracteres especiales.
 
 2. El texto se inserta en la parte izquierda y no se muestra en la parte derecha de la página.
 
-
+3. Responsive design para tablets y teléfonos inteligentes.
 
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 
+
+
 *[Acceso al proyecto](#acceso-proyecto)
+
+En esta dirección puede accesar al repositorio y página del proyecto:
+https://github.com/Josue-AV/encriptador-de-texto
 
 *[Tecnologías utilizadas](#tecnologías-utilizadas)
 
-
     HTML5
-    CSS3
-    JavaScript ES6
-    Git
-    Github
-    Github Pages
-    Trello
-
-
+    JavaScript
+    CSS
+     
 *[Personas Contribuyentes](#personas-contribuyentes)
+
+No se tienen.
 
 *[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
-* [Licencia](#licencia)
+Josue Álvarez Vargas.
 
 *[Conclusión](#conclusión)
 
