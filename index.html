@@ -30,24 +30,16 @@
         <div class="mensaje-encriptado" id="mensaje-encriptado">
             <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
             <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
-            <!-- <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
-
-           
-           
-
-<!-- The text field -->
-<input type="text" value=texto id="myInput">
 
 <!-- The button used to copy the text -->
 <button class="btn-copiar" onclick="myFunction()">Copiar texto</button>
-
+           
 <script>
     function myFunction() {
 
       // Get the text field
-      var copyText = document.getElementById("myInput");
+      var copyText = document.getElementById("texto");
     
-      
       // Select the text field
       copyText.select();
       copyText.setSelectionRange(0, 99999); // For mobile devices
