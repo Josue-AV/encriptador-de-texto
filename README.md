@@ -69,7 +69,7 @@ Los pasos para usar el programa son:
 4. Con el botón Copiar texto puede copiar lo que esté en la pantalla de texto.
    Le sale alerta con el texto copiado
 
-5. Para cambiar de palabra debe borrarla.
+5. Para limpiar pantalla en pc debe borrar texto. En laptop es dar actualizar.
 
 6. Con pantalla de texto vacía, da alerta por faltar ingresar texto, si da click en botón Encriptar o Desencriptar.
 
