@@ -1,3 +1,5 @@
+var prohibidos = /[A-ZáéíóúÁÉÍÓÚ]/;
+
 function encriptar(){
     let texto = document.getElementById("texto").value;
     let tituloMensaje = document.getElementById("titulo-mensaje");
@@ -11,8 +13,23 @@ function encriptar(){
         .replace(/o/gi, "ober")
         .replace(/u/gi, "ufat")
 
+
+         const textoPuro = texto;
+ if(prohibidos.test(textoPuro)){
+    swal("Oops!","Por favor ingrese un texto que contenga solamente letras minúsculas sin acentos","warning");
+
+         }
+         else{
+           
+        
+
     if (texto.length != 0) {
+
+
+
         document.getElementById("texto").value = textoCifrado;
+
+       
 
         tituloMensaje.textContent = "Texto encriptado con éxito";
         parrafo.textContent = "";
@@ -24,6 +41,8 @@ function encriptar(){
         swal("Oops!","Debes ingresar un texto","warning");
 
         }
+
+            }
 
     }
     function desencriptar() {
