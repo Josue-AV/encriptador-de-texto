@@ -263,12 +263,11 @@ div {
     visibility: hidden;
 } 
 
-
-
-
-
-
 }
 
-
+@media all and (max-width: 520px) {
+    a.menu{
+        padding-left:20%;
+    }
+}
 
