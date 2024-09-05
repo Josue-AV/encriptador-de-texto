@@ -48,11 +48,9 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 Pasos que faltan :
 
-1. Mensaje de validación que informe al usuario que no se aceptarán mayúsculas ni caracteres especiales.
+1. El texto se inserta en la parte izquierda y no se muestra en la parte derecha de la página.
 
-2. El texto se inserta en la parte izquierda y no se muestra en la parte derecha de la página.
-
-3. Responsive design para tablets y teléfonos inteligentes.
+2. Responsive design para tablets y teléfonos inteligentes.
    
 
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
