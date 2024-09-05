@@ -13,23 +13,16 @@ function encriptar(){
         .replace(/o/gi, "ober")
         .replace(/u/gi, "ufat")
 
-
          const textoPuro = texto;
  if(prohibidos.test(textoPuro)){
     swal("Oops!","Por favor ingrese un texto que contenga solamente letras minúsculas sin acentos","warning");
 
          }
          else{
-           
-        
 
     if (texto.length != 0) {
 
-
-
-        document.getElementById("texto").value = textoCifrado;
-
-       
+        document.getElementById("texto").value = textoCifrado;      
 
         tituloMensaje.textContent = "Texto encriptado con éxito";
         parrafo.textContent = "";
@@ -71,5 +64,3 @@ function encriptar(){
         }
     
         }
-    
- 
