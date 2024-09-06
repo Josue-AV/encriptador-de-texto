@@ -298,5 +298,19 @@ div {
 
 }
 
+@media (max-width:320px){
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .encriptar{
+        width: 50%;
+    }
+
+
+
+
+  }
 
 
