@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 div {
     cursor:crosshair;}
     
@@ -38,6 +36,32 @@ div {
     border: none;
     outline: none;
 }
+
+
+.salida{
+    position: absolute;
+    width: 95%;
+    height: 12%;
+    left: 2%;
+    top: 2%;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #d0d7ee;
+}
+
+.salida::placeholder{
+    color: #ee052c;
+}
+
+.salida:focus, .salida:active{
+    border: none;
+    outline: none;
+}
+
 
 .terminos{
     display: flex;
@@ -218,6 +242,15 @@ div {
     top: 5%;
 }
 
+
+.salida{
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 5%;
+}
+
+
 .terminos{
     width: 80%;
     left: 10%;
@@ -265,9 +298,5 @@ div {
 
 }
 
-@media all and (max-width: 520px) {
-    a.menu{
-        padding-left:20%;
-    }
-}
+
 

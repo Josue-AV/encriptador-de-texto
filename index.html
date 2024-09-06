@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>Encriptador de texto</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
@@ -29,6 +29,11 @@
         </div>
     </div>
     <div class="encriptado">
+
+
+        <textarea name="salida" class="salida" id="salida" cols="30" rows="10"></textarea>
+
+
         <img src="img/muñeco.png" alt="" id="muñeco"> 
         <link rel="stylesheet" href="">
         <div class="mensaje-encriptado" id="mensaje-encriptado">
@@ -42,7 +47,7 @@
     function copiar() {
 
       // Get the text field
-      var copiarTexto = document.getElementById("texto");
+      var copiarTexto = document.getElementById("salida");
     
       // Select the text field
       copiarTexto.select();

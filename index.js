@@ -23,10 +23,14 @@ function encriptar(){
     if (texto.length != 0) {
 
         document.getElementById("texto").value = textoCifrado;      
-
         tituloMensaje.textContent = "Texto encriptado con éxito";
         parrafo.textContent = "";
         muñeco.src = "img/encriptado.jpg";
+
+
+        document.getElementById("salida").value = textoCifrado;      
+
+
     } else{
         muñeco.src = "img/muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
@@ -56,6 +60,12 @@ function encriptar(){
             tituloMensaje.textContent = "Texto desencriptado con éxito";
             parrafo.textContent = "";
             muñeco.src = "img/desencriptado.jpg";
+
+            
+            document.getElementById("salida").value = textoCifrado;      
+
+
+
     }   else{
             muñeco.src = "img/muñeco.png";
             tituloMensaje.textContent = "Ningún mensaje fue encontrado";
