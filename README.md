@@ -48,9 +48,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 Pasos que faltan :
 
-1. El texto se inserta en la parte izquierda y no se muestra en la parte derecha de la página.
-
-2. Responsive design para tablets y teléfonos inteligentes.
+1. Responsive design para tablets y teléfonos inteligentes.
    
 
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
