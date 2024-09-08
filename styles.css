@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 div {
     cursor:crosshair;}
     
@@ -36,7 +37,6 @@ div {
     border: none;
     outline: none;
 }
-
 
 .salida{
     position: absolute;
@@ -295,21 +295,8 @@ div {
 
 }
 
-/* Estilos para pantallas pequeñas */
-@media only screen and (max-width: 768px) {
+@media (max-width: 600px) {
     body {
-        font-size: 14px;
-        background-color: #f0f0f0;
+      background-color: #87ceeb;
     }
-
-    .container {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    /* Ajustar imágenes a la pantalla */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
+  }
