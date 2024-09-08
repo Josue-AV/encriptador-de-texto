@@ -62,7 +62,6 @@ div {
     outline: none;
 }
 
-
 .terminos{
     display: flex;
     flex-direction: row;
@@ -242,14 +241,12 @@ div {
     top: 5%;
 }
 
-
 .salida{
     width: 80%;
     height: 60%;
     left: 10%;
     top: 5%;
 }
-
 
 .terminos{
     width: 80%;
@@ -298,81 +295,21 @@ div {
 
 }
 
-@media (max-width:320px){
-    .container{
-        display: flex;
-        flex-direction: row;
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background-color: #f0f0f0;
     }
 
-    .encriptar{
-        width: 50%;
+    .container {
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .texto{
-        width: 80%;
-        height: 60%;
-        left: 10%;
-        top: 5%;
+    /* Ajustar imágenes a la pantalla */
+    img {
+        max-width: 100%;
+        height: auto;
     }
-    
-    
-    .salida{
-        width: 80%;
-        height: 150%;
-        left: 10%;
-        top: 5%;
-    }
-    
-    
-    .terminos{
-        width: 80%;
-        left: 10%;
-        top: 67%;
-    }
-    
-    .terminos p{
-        font-size: 16px;
-    }
-    
-    .botones{
-        width: 80%;
-        left: 10%;
-        top: 70%;
-    }
-    
-    .btn-encriptar, .btn-desencriptar, .btn-copiar{
-        width: 48%;
-        border-radius: 16px;
-    }
-    
-    .btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover{
-        margin: 0.3%;
-        width: 47.5;
-        padding: 1.8%;
-    }
-    
-    .encriptado{
-        width: 80%;
-        height: 15%;
-        left: 10%;
-        top: 80%;
-    }
-    
-    .mensaje-encriptado{
-        width: 100%;
-        top: 5%;
-    }
-    
-    .encriptado img{
-        margin-top: 0;
-        display: none;
-        visibility: hidden;
-    } 
-    
-    }
-    
-
-
-  }
-
-
+}
