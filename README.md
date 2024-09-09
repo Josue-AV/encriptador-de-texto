@@ -46,9 +46,7 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 *[Estado del proyecto](#Estado-del-proyecto)
 
-Pasos que faltan :
-
-1. Responsive design para tablets y teléfonos inteligentes.
+Cumple las funciones.
    
 
 *[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
@@ -98,5 +96,3 @@ Josue Álvarez Vargas.
 El Desafío Encriptador de Texto es clave para el éxito como desarrollador. 
 A través de la práctica y el perfeccionamiento de la lógica, se puede fortalecer los conocimientos, dominar el pensamiento lógico, mejorar el análisis y la resolución de problemas.
 También se expande la visión del mundo del desarrollo.
-
-Este proyecto tiene mucho por mejorar, pero ha sido un avance para aprender.
