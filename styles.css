@@ -242,9 +242,9 @@ div {
 
 .salida{
     width: 80%;
-    height: 30%;
+    height: 40%;
     left: 10%;
-    top: -40%;
+    top: -70%;
 }
 
 .terminos{
@@ -277,9 +277,9 @@ div {
 
 .encriptado{
     width: 80%;
-    height: 15%;
+    height: 20%;
     left: 10%;
-    top: 80%;
+    top: 70%;
 }
 
 .mensaje-encriptado{
