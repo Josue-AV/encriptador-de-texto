@@ -205,7 +205,7 @@ div {
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-    color: #495057;
+    color: #0c4783;
 }
 
 .encriptado img{
@@ -220,7 +220,6 @@ div {
     background: transparent;
     font-size: 20px;
     margin: 2px;
-
 }
 
 /* Responsive design */
@@ -236,22 +235,22 @@ div {
 
 .texto{
     width: 80%;
-    height: 60%;
+    height: 30%;
     left: 10%;
     top: 5%;
 }
 
 .salida{
     width: 80%;
-    height: 60%;
+    height: 30%;
     left: 10%;
-    top: 5%;
+    top: -40%;
 }
 
 .terminos{
     width: 80%;
     left: 10%;
-    top: 67%;
+    top: 40%;
 }
 
 .terminos p{
@@ -261,17 +260,18 @@ div {
 .botones{
     width: 80%;
     left: 10%;
-    top: 70%;
+    top: 45%;
 }
 
 .btn-encriptar, .btn-desencriptar, .btn-copiar{
-    width: 48%;
+    width: 50%;
     border-radius: 16px;
+    
 }
 
 .btn-encriptar:hover, .btn-desencriptar:hover, .btn-copiar:hover{
     margin: 0.3%;
-    width: 47.5;
+    width: 60%;
     padding: 1.8%;
 }
 
@@ -293,10 +293,10 @@ div {
     visibility: hidden;
 } 
 
+
+
 }
 
-@media (max-width: 600px) {
-    body {
-      background-color: #87ceeb;
-    }
-  }
+
+
+  
